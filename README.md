@@ -60,3 +60,13 @@ dpp@dpp-mac ~/src/uap-php-lite> wc -l user_agents_uniq.txt
 dpp@dpp-mac ~/src/uap-php-lite>
 ```
 
+But code size is much smaller and have no dependencies
+```sh
+dpp@dpp-mac ~/src/uap-php-lite> wc -l dev/generate_ua.php prod/ua_parse.php
+136 dev/generate_ua.php
+28 prod/ua_parse.php
+164 total
+dpp@dpp-mac ~/src/uap-php> find bin src -type f|xargs cat |wc -l
+1363
+```
+
