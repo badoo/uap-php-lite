@@ -1,0 +1,10 @@
+[submodule "dev/spyc"]
+	path = dev/spyc
+	url = https://github.com/mustangostang/spyc
+[submodule "dev/uap-core"]
+	path = dev/uap-core
+	url = https://github.com/ua-parser/uap-core.git
+[submodule "uap-core"]
+	branch = master
+[submodule "spyc"]
+	branch = master
