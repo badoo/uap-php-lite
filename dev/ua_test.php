@@ -79,5 +79,5 @@ function main($test_name, $ua_filename)
     time_elapsed($test_name);
 }
 
-main($argv[1], $argv[2]);
+main(@$argv[1], @$argv[2]);
 

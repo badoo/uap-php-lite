@@ -30,7 +30,7 @@ Array
 
 - Use `git clone --recursive` to clone with submodules.
 - Use `./dev/update_regexes.sh` to update uap-core regex file and generate new php snapshot of `regexes.yaml`.
-- Use `php ./dev/ua_test.php user_agents_list.txt` to run test against list of user agents you want.
+- Use `php ./dev/ua_test.php test_uap user_agents_list.txt` to run test against list of user agents you want.
 
 ## Reasoning for own implementation
 
