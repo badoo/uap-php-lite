@@ -1,7 +1,7 @@
 #!/bin/sh
 if [ "`dirname $0`" = "`pwd`" ]
 then
-	#cd ..
+	cd ..
 fi
 
 git pull --quiet
