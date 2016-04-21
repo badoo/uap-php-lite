@@ -1,8 +1,8 @@
 #!/bin/sh
-if [ "`dirname $0`" = "`pwd`" ]
-then
-	cd ..
-fi
+#if [ "`dirname $0`" = "`pwd`" ]
+#then
+#	cd ..
+#fi
 
 git pull --quiet
 git submodule --quiet foreach git pull --quiet
